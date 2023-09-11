@@ -18,6 +18,7 @@ public class SendController {
     @GetMapping("/send")
     public Message sendName(@RequestBody final Message message) {
 //        first commit
+//        second commit
         Message message1 = sendService.sendName(message);
         return message1;
     }
